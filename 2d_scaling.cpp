@@ -1,5 +1,5 @@
 // 2d scaling
-
+#include<iostream>
 #include <stdio.h>
 #include <graphics.h>
 #include <stdlib.h>
@@ -33,11 +33,12 @@ void get()
     getch();
 }
 
-void main()
+int main()
 {
     int ch, gd = DETECT, gm;
     initgraph(&gd, &gm, "c:\\tc\\bgi");
     get();
     cleardevice();
     scaling();
+    return 0;
 }
