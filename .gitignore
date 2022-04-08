@@ -1,2 +1,4 @@
 *.exe
-github.cpp
+github*
+nunkon*
+point_clipping.cpp
