@@ -24,6 +24,7 @@ int main()
 	{
 		line(x[i],y[i],x[i+1],y[i+1]);
 	}
+	// drawpoly(6, arr);
 	for(int i=0;i<n;i++)
 	{
 		dx=x[i+1]-x[i];
@@ -51,7 +52,10 @@ int main()
 				}
 			}
 			for(int i=0;i<k;i+=2){
-				setcolor((rand() % ( 63 - 25 + 1 ) ));
+				setcolor(RED);
+
+
+				// setcolor((rand() % ( 63 - 25 + 1 ) ));
 				line(xi[i],j,xi[i+1]+1,j);
 				delay(70);
 			}
